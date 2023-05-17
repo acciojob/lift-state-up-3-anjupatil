@@ -13,7 +13,7 @@ const ParentComponent=()=>{
             <h1>Parent Component</h1>
             <Child option="Option 1" onButtonClick={handleButtonClick} ></Child>
             <Child option="Option 2" onButtonClick={handleButtonClick} ></Child>
-            <p>Selected Option:{selectedOption}</p>
+            <p>Selected Option: {selectedOption}</p>
             
         </div>
     )
